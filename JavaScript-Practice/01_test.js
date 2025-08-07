@@ -13,5 +13,24 @@ let state = null; // no value assigned
 //object model DOM
 console.table([name,age,isLog,state]);
 console.log(typeof age);
-console.log(typeof state); // not null but object
+console.log(typeof(state)); // not null but object
 console.log(typeof undefined);
+
+//Data Type conversion in JS
+//let score = "33"; 
+let score = "33bc"
+console.log(typeof(score));
+let value = Number(score);
+console.log(typeof value); // type of NaN is number
+console.log(value); // gives NaN since bc cannot be converted
+
+// string to bool => true 
+// null string to bool => false
+
+let num = 33;
+let str = String(num);
+console.log(typeof str);
+console.log(str); //num to string
+
+
+
