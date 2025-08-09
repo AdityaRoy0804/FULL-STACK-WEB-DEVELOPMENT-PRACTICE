@@ -33,4 +33,16 @@ console.log(typeof str);
 console.log(str); //num to string
 
 
+/*
+Types of Data Types : based on how they are stored in memory and accessed
+
+Primitive - call by values( changes not reflected in actual memory , it gives a copy when accessed)
+String,Number,Boolean,null,undefined,Symbol,BigInt
+
+Non-Primitive - call by reference(directly access the memory block and changes are made actually)
+Array,Objects,Functions
+
+JS is dynamically typed since we dont have to define datatypes. It is decided directly by it.
+*/
+
 
